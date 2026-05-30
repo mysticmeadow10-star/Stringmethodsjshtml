@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Javascript Strings Method</title>
+    </head>
+    
+    <body>
+
+        <h1>Javascript String Methods </h1>
+        <p>Basic Methods</p>
+
+        <script>
+            let str = "JavaScript: It is the brain of our webpage ! !";
+
+            document.write('str in uppercase:'+str.toUpperCase());
+            document.write("<br>");
+
+            document.write('str in lowercase:'+str.toLowerCase());
+            document.write("<br>");
+
+            document.write('is str starting with i:'+str.startswith('i'));
+            document.write("<br>");
+
+            let patt = new RegExp('JavaScript');
+            let res = patt.test(str);
+            document.write('is patt aa part of str?'+res);
+            document.write("<br>");
+            document.write("<br>");
+
+            let num = Math.random();
+            document.write(num);
+            document.write("<br>");
+            document.write("<br>");
+            document.write("<br>");
+
+
+            let num1 = Math.floor(Math.random() * 10 ) + 1;
+            document.write('This is the execution of floor:')
+            document.write("<br>");
+            document.write(Math.random() * 10);
+            document.write("<br>");
+            document.write(num1);
+
+        </script>
+
+    </body>
+</html>
